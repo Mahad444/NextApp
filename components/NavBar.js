@@ -4,16 +4,16 @@ const NavBar = () => {
     return (  
         
         <nav>
-            <>
+            <div className="logo">
             <h1>NavBar Comp</h1>
 
-           <Link href={'/'}>Home</Link>
-            <Link href={'/about'}>About</Link>
-            <Link href={'/mahad/test'}>Mahad Listings</Link> 
-            </>
+           <Link legacyBehavior href={'/'}><a>Home</a></Link>
+            <Link legacyBehavior href={'/about'} ><a className="nava">About</a></Link>
+            <Link legacyBehavior href={'/mahad/test'}><a className='nava' >Mahad Listings</a></Link> 
+            </div>
         </nav>
 
     );
 }
  
-export default NavBar;
+export default NavBar;  
