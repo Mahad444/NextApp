@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,45 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+.content{
+  max-width: 960px;
+  margin: auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav .nava {
+  margin-left: 12px;
+}
+nav .logo{
+  margin-right: auto;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
+.not-found{
+  text-decoration: underline;
+  color: blue;
 }
