@@ -16,6 +16,7 @@ const NotFound = () => {
             <h1>404 Error!</h1>
             <h1>Oooops.......</h1>
             <p>This Page is NotFound</p>
+            <p>or unwanted route visited</p>
             <Link legacyBehavior href={'/'}><a className="not-found">HomePage</a></Link>
         </div>
      );
